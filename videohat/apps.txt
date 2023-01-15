@@ -1,0 +1,15 @@
+App1 :
+	App1_User
+	Tag
+	Playlist
+	Video
+	AdClicksLogs
+	AdViewsLogs
+	Ads
+App 2 :
+	App2_user(type: enum(isAdmin, isSuperAdmin, AdSpaceBuyer))
+	Tag
+	Ads
+	AdClicksLogs
+	AdViewsLogs
+	
