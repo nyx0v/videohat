@@ -12,7 +12,7 @@ services:
     depends_on:
       - mongo
     labels:
-      - "traefik.http.routers.videohat.rule=Host(`videohat.localhost`)"
+      - "traefik.http.routers.videohat.rule=Host(`videohat.bouzinab.com`)"
       
   videohat-ads:
     build: 
@@ -26,7 +26,7 @@ services:
     depends_on:
       - mongo
     labels:
-      - "traefik.http.routers.videohat-ads.rule=Host(`videohat-ads.localhost`)"
+      - "traefik.http.routers.videohat-ads.rule=Host(`videohat-ads.bouzinab.com`)"
   mongo:
     image: mongo
     volumes:
